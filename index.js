@@ -35,3 +35,4 @@ function deleteFromEmployeeByKey(employee, key) {
 function destructivelyDeleteFromEmployeeByKey(employee, key) {
   delete employee[key];
   return employee;
+}
